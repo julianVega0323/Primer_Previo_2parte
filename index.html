@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Principal</title>
+
+  <link rel="stylesheet" href="iconos.css">
+
+  <link rel="stylesheet" href="estilo.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <br>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span >
+              <span class="icon-bar"></span>
+            </button>
+            <a href="file:///C:/Users/julii/Documents/Programacion%20Web/Primer_Previo_2parte/index.html" id="letra-menu-titulo" class="navbar-brand"><strong><i>TeEnviamosLoQueSea SAS</i></strong></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav">
+              <li><a href="file:///C:/Users/julii/Documents/Programacion%20Web/Primer_Previo_2parte/index.html" id="letra-menu"><span class="icon-home"></span> Inicio</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" id="letra-menu"><span class="icon-clipboard"></span> Registrar<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li id="registro-clientes"><a href="#"><span class="icon-user-plus"></span> Registro Clientes</a></li>
+                  <li id="registroMensajeros"><a href="#"><span class="icon-rocket"></span> Registro Mensajeros</a></li>
+                  <li id="registroEnvios"><a href="#"><span class="icon-checkmark"></span>Registro Envios</a></li>
+                </ul>
+              </li>
+              <li><a href="#" id="contacto-cargar" id="letra-menu"> <span class="icon-phone"></span>Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <div class="container" id="cargar-pagina">
+
+
+    <div class="container" id="lugar-cargar">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8" id="cargar-crearCuenta">
+          <figure>
+            <img class="img-responsive" src="https://www.mdirector.com/wp-content/uploads/2015/02/envio-masivo-de-correos1.jpg" width="500px" alt="">
+          </figure>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Ingreso de Usuarios</h2>
+          <div class="form">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label class="col-lg-2 control-label">Usuario</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" placeholder="Usuario">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-lg-2 control-label">Clave</label>
+                <div class="col-lg-10">
+                  <input type="password" class="form-control" placeholder="Contraseña">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                  <button type="submit" class="btn btn-success">Login</button>
+                </div>
+              </div>
+              <br>
+              <p><mark>Create una cuenta para acceder a los beneficios de ser uno de nuestros usuarios</mark></p>
+              <button id="crear-cuenta" class="btn btn-alert"><a href="#">Crear Cuenta</a></button>
+            </form>
+          </div>
+          <div class="social">
+            <ul>
+              <li><a href="https://www.facebook.com/" class="icon-facebook"></a></li>
+              <li><a href="https://twitter.com/?lang=es" class="icon-twitter"></a></li>
+              <li><a href="https://www.instagram.com" class="icon-instagram"></a></li>
+              <li><a href="https://web.whatsapp.com/" class="icon-whatsapp"></a></li>
+              <li><a href="https://vine.co/" class="icon-vine"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h2>Misión</h2>
+            <hr> Satisfacer totalmente las necesidades de logística y comunicación integral de nuestros Clientes, a través de la excelencia en el servicio, el desarrollo integral de nuestros Líderes de Acción y el sentido de compromiso con nuestra familia
+            y nuestro País.
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h2>Visión</h2>
+            <hr> Queremos que Servientrega sea un modelo de empresa líder en servicios de logística y comunicación, por seguridad, oportunidad y cubrimiento en América, con presencia competitiva a nivel mundial.
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <h2>Politica Integral</h2>
+            <hr>
+            <p>Basados en nuestro direccionamiento estratégico del Séptimo Quinquenio "Sustentabilidad" orientados al eje social ambiental y económico, fortaleciendo el estándar gerencial Modelo "S", nos comprometemos a satisfacer las necesidades y expectativas
+              de las partes interesadas (clientes, gobierno, proveedores, empresarios satélites, colaboradores, comunidad y accionistas), mediante:</p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h2>Politica de Seguridad Vial</h2>
+            <hr> Para Servientrega S.A. el cumplimiento de la regulación legal vigente en todo su ciclo logístico, es un compromiso que expresa a través del desarrollo del Plan Estratégico de Seguridad Vial, el cual involucra estrategias, medidas, mecanismos
+            y acciones; promoviendo la prevención, el cuidado y una cultura de responsabilidad vial en todos sus colaboradores, contratistas, subcontratistas y demás partes interesadas, adoptando conductas seguras enfocadas en la reducción de los riesgos
+            viales y la disminución de los efectos de los accidentes de tránsito, mediante la disposición de los recursos financieros, humanos y técnicos encaminados al mejoramiento continúo.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div id="sucursales" class="col-xs-12 col-sm-4">
+          <h2>Nuestras Sucursales</h2>
+          <hr>
+          <p>En "TeEnviamosLoQueSea" contamos con multiples sucursales a nivel mundial, en paises como:</p>
+          <ul>
+            <li>Colombia</li>
+            <li>Estados Unidos</li>
+            <li>Argentina</li>
+            <li>España</li>
+            <li>Rusia</li>
+            <li>China</li>
+            <br>
+          </ul>
+          <p>Asi podran contar con un mayor cubrimiento en cualquiera que sea el lugar donde requiera realizar su envio</p>
+        </div>
+        <div id="alcance" class="col-xs-12 col-sm-4">
+          <h2>Alcance a Nivel Internacional</h2>
+          <hr>
+          <figure><img class="img-responsive" src="http://www.schott.com/pharmaceutical_packaging/images/weltkarte_2013.jpg" style="margin-left: 24px;" width="300px" alt=""></figure><br>
+          <p>mediante convenios internacionales con diferentes empresas de entregas a domicilio locales contamos .</p>
+        </div>
+        <div id="sucursales" class="col-xs-12 col-sm-4">
+          <h2>Confiabilidad</h2>
+          <hr>
+          <figure>
+            <img src="https://cdn3.computerhoy.com/sites/computerhoy.com/files/styles/fullcontent/public/novedades/apert_gestor.png?itok=00i2LQAY" width="322px" alt="">
+          </figure>
+          <p>nuestro personal es de confianza y con altos valores eticos. Garantizando asi la seguridad de sus envios en cualquier lugar del mundo, Asi podran contar con un mayor cubrimiento en donde requiera realizar su envio</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="text-muted" style="  color: #fff;">Programación Aplicaciones Web - 2018 </p>
+          <p class="text-muted" style="  color: #fff;"><i>1151534 - Julian Andres Becerra Vega </i></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+
+</html>

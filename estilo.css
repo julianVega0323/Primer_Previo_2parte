@@ -1,0 +1,120 @@
+li:hover {
+  background-color: #000;
+  color: black;
+  padding: 0px 4px;
+}
+span {
+  margin-right: 14px;
+}
+body {
+  padding-top: 70px;
+}
+img:hover {
+  -webkit-transform: scale(1.2);
+}
+body,td,th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+input {
+  background-color: #D7D7FF;
+  text-transform: uppercase;
+}
+.Estilo1 {
+ color: #FFFFFF;
+ font-weight: bold;
+}
+.social {
+  position: fixed;
+  right:   0;
+  top: 200px;
+  z-index: 1000;
+}
+.social ul {
+  list-style: none;
+}
+.social ul li a {
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.social ul li .icon-facebook {
+  background-color: #3b5998;
+}
+.social ul li .icon-twitter {
+  background-color: #00abf0;
+}
+.social ul li .icon-instagram {
+  background-color: #d95232;
+}
+.social ul li .icon-whatsapp {
+  background-color: #ae181f;
+}
+.social ul li .icon-vine {
+  background-color: #666666;
+}
+.social ul li a:hover {
+  padding: 15px;
+  background-color: #000;
+}
+.container-fluid {
+  background-color: #F44336;
+}
+.footer {
+  padding: 5px 100px;
+  margin-top: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #F44336;
+}
+.Estilo1 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.boton-registrar{
+  margin-top: 10px;
+}
+.item{
+  padding: 18px 18px;
+}
+#contacto-cargar{
+  color: rgb(255, 255, 255);
+}
+#info{
+  margin-left: 140px;
+}
+#info img{
+  margin-top: 0px;
+}
+#crear-cuenta{
+  font-size: 18px;
+}
+#alcance {
+  background-color: #DCEDC8;
+}
+#sucursales {
+  background-color: #FFF9C4;
+}
+#navbar1 {
+  margin-left: 900px;
+}
+#letra-menu-titulo {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 22px;
+}
+#formulario{
+  background-color: rgb(0, 0, 0,0.5)
+}
+#letra-menu {
+  font-size: 15px;
+  color: #fff;
+}
+#crear-cuenta {
+  margin-left: 230px;
+  margin-top: 10px;
+}
